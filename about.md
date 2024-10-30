@@ -1,1 +1,1 @@
----layout: pagetitle: Aboutpermalink: /about/---I am an undergraduate student at Hawaii Pacific University.### Contact: [ltewahade1.hpu.edu](mailto:ltewahade1@my.hpu.edu)
+---layout: pagetitle: Aboutpermalink: /about/---I am in my third year as an undergraduate student at Hawaii Pacific University studing biology with a concentration in conservation, ecology, and evolution and minoring in oceanography. Currently, I do field work for both the ‘opihi and ciguatera projects. ### Contact: [ltewahade1.hpu.edu](mailto:ltewahade1@my.hpu.edu)
