@@ -2,6 +2,7 @@
 layout: post 
 title: Sample sites on west Oahu
 date: '2024-10-30'
+categories: [‘Opihi]
 tags: [‘Opihi, Field Work]
 ---
 
