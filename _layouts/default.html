@@ -1,95 +1,88 @@
 <!DOCTYPE html>
 <html>
+
+<head>
+  <title>{% if page.title %}{{ page.title }} – {% endif %}{{ site.name }} – {{ site.description }}</title>
+
+  {% include meta.html %}
+
+  <!--[if lt IE 9]>
+    <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+  <![endif]-->
+
+  <link rel="stylesheet" type="text/css" href="{{ site.baseurl }}/style.css" />
+  <link rel="alternate" type="application/rss+xml"
+        title="{{ site.name }} - {{ site.description }}"
+        href="{{ site.baseurl }}/feed.xml" />
+
+  <!-- Created with Jekyll Now - http://github.com/barryclark/jekyll-now -->
+</head>
+
+<body>
+
   <header class="banner-container">
     <div class="banner-content">
-      <h1>Tewahde Online Notebook</h1>
+      <h1>Tewahade Online Notebook</h1>
     </div>
   </header>
-  <head>
-    <title>{% if page.title %}{{ page.title }} – {% endif %}{{ site.name }} – {{ site.description }}</title>
 
-    {% include meta.html %}
+  <div class="wrapper-masthead">
+    <div class="container">
+      <header class="masthead clearfix">
 
-    <!--[if lt IE 9]>
-      <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
-    <![endif]-->
+        <a href="{{ site.baseurl }}/" class="site-avatar">
+          <img src="{{ site.avatar }}" />
+        </a>
 
-    <link rel="stylesheet" type="text/css" href="{{ site.baseurl }}/style.css" />
-    <link rel="alternate" type="application/rss+xml" title="{{ site.name }} - {{ site.description }}" href="{{ site.baseurl }}/feed.xml" />
+        <div class="site-info">
+          <h1 class="site-name">
+            <a href="{{ site.baseurl }}/">{{ site.name }}</a>
+          </h1>
+          <p class="site-description">{{ site.description }}</p>
+        </div>
 
-    <!-- Created with Jekyll Now - http://github.com/barryclark/jekyll-now -->
-  </head>
+        <nav>
+          <a href="{{ site.baseurl }}/">Notebook</a>
+          <a href="">Website</a>
+          <a href="{{ site.baseurl }}/about">About and CV</a>
+        </nav>
 
-  <body>
-    <div class="wrapper-masthead">
+      </header>
+
       <div class="container">
-        <header class="masthead clearfix">
-          <a href="{{ site.baseurl }}/" class="site-avatar"><img src="{{ site.avatar }}" /></a>
+        <div id="archives">
+          browse by
+          <a title="The complete archive of {{ site.name }}'s Notebook by category"
+             href="{{ site.url }}{{ site.baseurl }}/categoryview">category</a>
+          or
+          <a title="The complete archive of {{ site.name }}'s Notebook by month"
+             href="{{ site.url }}{{ site.baseurl }}/monthview">date</a>
+          or
+          <a title="The complete archive of {{ site.name }}'s Notebook by tag"
+             href="{{ site.url }}{{ site.baseurl }}/tagview">tag</a>
+        </div>
 
-          <div class="site-info">
-            <h1 class="site-name"><a href="{{ site.baseurl }}/">{{ site.name }}</a></h1>
-            <p class="site-description">{{ site.description }}</p>
-          </div>
-
-          <nav>
-            <a href="{{ site.baseurl }}/">Notebook</a>
-            <a href="">Website</a>
-            <a href="{{ site.baseurl }}/about">About and CV</a>
-          </nav>
-        </header>
-          <div class="container" >
-         <div id="archives">
-             browse by <a title="The complete archive of {{ site.name }}'s Notebook by category"
-                          href="{{ site.url}}{{site.baseurl}}/categoryview">category</a> or <a title="The complete archive of
-     {{ site.name }}'s Notebook by month"
-     href="{{ site.url}}{{site.baseurl}}/monthview">date</a> or <a title="The complete archive of
-     {{ site.name }}'s Notebook by tag"
-     href="{{ site.url}}{{site.baseurl}}/tagview">tag</a>
-         </div>
-         <div align="right">
-       		<a href="https://github.com/leilatewahade/Tewahade_LabNotebook">admin</a>
-     </div>
-   </div>
+        <div align="right">
+          <a href="https://github.com/leilatewahade/Tewahade_LabNotebook">admin</a>
+        </div>
       </div>
-    </div>
 
-    <div id="main" role="main" class="container">
-      {{ content }}
     </div>
+  </div>
 
-    <div class="wrapper-footer">
-      <div class="container">
-        <footer class="footer">
-          {% include svg-icons.html %}
-        </footer>
-      </div>
+  <div id="main" role="main" class="container">
+    {{ content }}
+  </div>
+
+  <div class="wrapper-footer">
+    <div class="container">
+      <footer class="footer">
+        {% include svg-icons.html %}
+      </footer>
     </div>
+  </div>
 
-    {% include analytics.html %}
-  </body>
+  {% include analytics.html %}
+
+</body>
 </html>
-
-.banner-container {
-  /* Points to your image file path or external web link */
-  background-image: url('/Users/leilatewahade/Desktop/folders/iacchei/Tewahade_LabNotebook/Tewahade_LabNotebook/images/DSC_2901.jpg'); 
-  
-  /* Centers the photo and ensures it fills the entire header area */
-  background-position: center;
-  background-size: cover;
-  background-repeat: no-repeat;
-  
-  /* Establishes the height of your header banner */
-  height: 400px; 
-  width: 100%;
-  
-  /* Flexbox centers the text content inside the banner */
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  text-align: center;
-}
-
-.banner-content h1, .banner-content p {
-  color: white; /* Ensures your text is readable over the photo */
-  margin: 5px 0;
-}
