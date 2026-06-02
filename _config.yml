@@ -2,6 +2,10 @@
 # This file contains configuration flags to customize your site
 #
 
+# header image
+header: 
+  image: "/Tewahade_LabNotebook/images/DSC_2901.jpg"
+
 # Name of your site (displayed in the header)
 name: Tewahade Open Lab Notebook
 
