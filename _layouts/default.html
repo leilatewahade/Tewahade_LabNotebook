@@ -1,5 +1,10 @@
 <!DOCTYPE html>
 <html>
+  <header class="banner-container">
+    <div class="banner-content">
+      <h1>Tewahde Online Notebook</h1>
+    </div>
+  </header>
   <head>
     <title>{% if page.title %}{{ page.title }} – {% endif %}{{ site.name }} – {{ site.description }}</title>
 
@@ -63,3 +68,28 @@
     {% include analytics.html %}
   </body>
 </html>
+
+.banner-container {
+  /* Points to your image file path or external web link */
+  background-image: url('banner-photo.jpg'); 
+  
+  /* Centers the photo and ensures it fills the entire header area */
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  
+  /* Establishes the height of your header banner */
+  height: 400px; 
+  width: 100%;
+  
+  /* Flexbox centers the text content inside the banner */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+
+.banner-content h1, .banner-content p {
+  color: white; /* Ensures your text is readable over the photo */
+  margin: 5px 0;
+}
