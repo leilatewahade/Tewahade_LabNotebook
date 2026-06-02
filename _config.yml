@@ -1,7 +1,7 @@
 #
 # This file contains configuration flags to customize your site
 #
-
+---
 # Name of your site (displayed in the header)
 title: Tewahade Open Lab Notebook
 
@@ -14,7 +14,7 @@ description: "Leila's online lab notebook"
 
 # URL of your avatar or profile pic (you could use your GitHub profile pic)
 avatar: "/Tewahade_LabNotebook/images/TewahadeHeadshot.jpg"
-
+---
 
 # Includes an icon in the footer for each username you enter
 footer-links:
