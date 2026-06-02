@@ -1,3 +1,4 @@
+```html
 <!DOCTYPE html>
 <html>
 
@@ -14,20 +15,57 @@
   <link rel="alternate" type="application/rss+xml"
         title="{{ site.name }} - {{ site.description }}"
         href="{{ site.baseurl }}/feed.xml" />
-
-  <!-- Created with Jekyll Now - http://github.com/barryclark/jekyll-now -->
 </head>
 
 <body>
 
-  <header class="banner-container">
-    <div class="banner-content">
-      <h1>Tewahade Online Notebook</h1>
+  <!-- Banner -->
+  <header
+    style="
+      background-image:url('{{ site.baseurl }}/images/DSC_2901.jpg');
+      background-size:cover;
+      background-position:center;
+      height:400px;
+      display:flex;
+      align-items:center;
+      justify-content:center;
+      text-align:center;
+    ">
+
+    <div style="
+      background:rgba(0,0,0,.35);
+      width:100%;
+      height:100%;
+      display:flex;
+      flex-direction:column;
+      align-items:center;
+      justify-content:center;
+    ">
+
+      <h1 style="
+        color:white;
+        font-size:3.5rem;
+        margin:0;
+        text-shadow:2px 2px 10px rgba(0,0,0,.6);
+      ">
+        Tewahade Online Notebook
+      </h1>
+
+      <p style="
+        color:white;
+        font-size:1.2rem;
+        text-shadow:2px 2px 10px rgba(0,0,0,.6);
+      ">
+        Research Notes and Updates
+      </p>
+
     </div>
   </header>
 
+  <!-- Navigation -->
   <div class="wrapper-masthead">
     <div class="container">
+
       <header class="masthead clearfix">
 
         <a href="{{ site.baseurl }}/" class="site-avatar">
@@ -38,33 +76,33 @@
           <h1 class="site-name">
             <a href="{{ site.baseurl }}/">{{ site.name }}</a>
           </h1>
-          <p class="site-description">{{ site.description }}</p>
+
+          <p class="site-description">
+            {{ site.description }}
+          </p>
         </div>
 
         <nav>
           <a href="{{ site.baseurl }}/">Notebook</a>
-          <a href="">Website</a>
-          <a href="{{ site.baseurl }}/about">About and CV</a>
+          <a href="#">Website</a>
+          <a href="{{ site.baseurl }}/about">About & CV</a>
         </nav>
 
       </header>
 
-      <div class="container">
-        <div id="archives">
-          browse by
-          <a title="The complete archive of {{ site.name }}'s Notebook by category"
-             href="{{ site.url }}{{ site.baseurl }}/categoryview">category</a>
-          or
-          <a title="The complete archive of {{ site.name }}'s Notebook by month"
-             href="{{ site.url }}{{ site.baseurl }}/monthview">date</a>
-          or
-          <a title="The complete archive of {{ site.name }}'s Notebook by tag"
-             href="{{ site.url }}{{ site.baseurl }}/tagview">tag</a>
-        </div>
+      <div style="margin-top:15px; text-align:center;">
+        Browse by
+        <a href="{{ site.url }}{{ site.baseurl }}/categoryview">Category</a>
+        |
+        <a href="{{ site.url }}{{ site.baseurl }}/monthview">Date</a>
+        |
+        <a href="{{ site.url }}{{ site.baseurl }}/tagview">Tag</a>
+      </div>
 
-        <div align="right">
-          <a href="https://github.com/leilatewahade/Tewahade_LabNotebook">admin</a>
-        </div>
+      <div style="text-align:right; margin-top:10px;">
+        <a href="https://github.com/leilatewahade/Tewahade_LabNotebook">
+          Admin
+        </a>
       </div>
 
     </div>
@@ -86,35 +124,4 @@
 
 </body>
 </html>
-
- <style> /* start of CSS */
-/* Banner image */
-
-.banner-container {
-  background-image: url('/Users/leilatewahade/Desktop/folders/iacchei/Tewahade_LabNotebook/Tewahade_LabNotebook/images/DSC_2901.jpg');
-  background-position: center;
-  background-size: cover;
-  background-repeat: no-repeat;
-
-  height: 400px;
-  width: 100%;
-
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  text-align: center;
-}
-
-.banner-content h1 {
-  color: white;
-  font-size: 3rem;
-  margin: 0;
-  text-shadow: 2px 2px 10px rgba(0,0,0,0.6);
-}
-
-.banner-content p {
-  color: white;
-  margin-top: 10px;
-  text-shadow: 2px 2px 10px rgba(0,0,0,0.6);
-}
-/* end of CSS */ </style>
+```
