@@ -1,1 +1,16 @@
----layout: pagetitle: Aboutpermalink: /about/---# About MeRecent graduate of  Hawaii Pacific University with a B.S. in biology with a concentration in conservation, ecology, and evolution and minor in oceanography. ### Contact: [tewahade.leila@gmail.com](mailto:tewahade.leila@gmail.com)### [CV](https://github.com/leilatewahade/Tewahade_LabNotebook/blob/de79ce73023cb6247242ba53dce54d59f2945713/files/Tewahade_CV.pdf)
+---
+layout: page
+title: About & CV
+---
+
+# About Me
+
+I recently graduated from Hawaii Pacific University with a Bachelor of Science in Biology, concentrating in Conservation, Ecology, and Evolution, and a minor in Oceanography. My interests include marine ecology, coastal and coral reef ecosystems, environmental health, and the application of scientific research to conservation and resource management.
+
+### Contact
+
+[tewahade.leila@gmail.com](mailto:tewahade.leila@gmail.com)
+
+### Curriculum Vitae
+
+[View CV](https://github.com/leilatewahade/Tewahade_LabNotebook/blob/main/files/Tewahade_CV.pdf)
