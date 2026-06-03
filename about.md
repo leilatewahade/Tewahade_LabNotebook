@@ -6,7 +6,7 @@ title: About & CV
 <div style="display:flex; gap:40px; align-items:flex-start; flex-wrap:wrap;">
 
   <div style="flex:0 0 300px;">
-    <img src="{{ site.baseurl }}/images/leila.jpg"
+    <img src="{{ site.baseurl }}/images/TewahadeHeadshot.jpg"
          alt="Leila Tewahade"
          style="width:100%; border-radius:8px;">
   </div>
