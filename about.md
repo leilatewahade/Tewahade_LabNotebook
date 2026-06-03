@@ -3,28 +3,30 @@ layout: page
 title: About & CV
 ---
 
-<div style="display:flex; align-items:flex-start; gap:40px; flex-wrap:wrap;">
+<div style="display:flex; gap:40px; align-items:flex-start; flex-wrap:wrap;">
 
-<div style="flex:0 0 300px;">
+  <div style="flex:0 0 300px;">
+    <img src="{{ site.baseurl }}/images/TewahadeHeadshot.jpg"
+         alt="Leila Tewahade"
+         style="width:100%; border-radius:8px;">
+  </div>
 
-<img src="{{ site.baseurl }}/images/leila.jpg"
-     alt="Leila Tewahade"
-     style="width:100%; border-radius:8px;">
+  <div style="flex:1; min-width:300px;">
 
-</div>
+  # About Me
 
-<div style="flex:1; min-width:300px;">
+  I recently graduated from Hawaii Pacific University with a Bachelor of Science in Biology, concentrating in Conservation, Ecology, and Evolution, and a minor in Oceanography.
 
-# About Me
+  My interests include marine ecology, coastal and coral reef ecosystems, environmental health, and the application of scientific research to conservation and resource management.
 
-I recently graduated from Hawaii Pacific University with a Bachelor of Science in Biology, concentrating in Conservation, Ecology, and Evolution, and a minor in Oceanography.
+  ### Contact
 
-My interests include marine ecology, coastal and coral reef ecosystems, environmental health, and the application of scientific research to conservation and resource management.
+  [tewahade.leila@gmail.com](mailto:tewahade.leila@gmail.com)
 
-### Contact: [tewahade.leila@gmail.com](mailto:tewahade.leila@gmail.com)
+  ### Curriculum Vitae
 
-### Curriculum Vitae: [View CV]({{ site.baseurl }}/files/Tewahade_CV.pdf)
+  [View CV]({{ site.baseurl }}/files/Tewahade_CV.pdf)
 
-</div>
+  </div>
 
 </div>
