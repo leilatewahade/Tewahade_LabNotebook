@@ -48,28 +48,34 @@
   </header>
 
   <!-- Navigation area -->
-  <div style="width:75%; max-width:1500px; margin:0 auto;">
+<div style="
+  width:95%;
+  max-width:1500px;
+  margin:20px auto;
+  display:flex;
+  justify-content:space-between;
+  align-items:center;
+  flex-wrap:wrap;
+">
 
-    <header class="masthead clearfix">
-      
-      <nav>
-        <a href="{{ site.baseurl }}/">Notebook</a>
-        <a href="#">Website</a>
-        <a href="{{ site.baseurl }}/about">About & CV</a>
-      </nav>
+  <!-- Left side -->
+  <nav>
+    <a href="{{ site.baseurl }}/">Notebook</a>
+    <a href="#">Website</a>
+    <a href="{{ site.baseurl }}/about">About & CV</a>
+  </nav>
 
-    </header>
-
-    <div style="margin-top:15px; text-align:center;">
-      Browse by
-      <a href="{{ site.url }}{{ site.baseurl }}/categoryview">Category</a>
-      |
-      <a href="{{ site.url }}{{ site.baseurl }}/monthview">Date</a>
-      |
-      <a href="{{ site.url }}{{ site.baseurl }}/tagview">Tag</a>
-    </div>
-
+  <!-- Right side -->
+  <div>
+    Browse by
+    <a href="{{ site.url }}{{ site.baseurl }}/categoryview">Category</a>
+    |
+    <a href="{{ site.url }}{{ site.baseurl }}/monthview">Date</a>
+    |
+    <a href="{{ site.url }}{{ site.baseurl }}/tagview">Tag</a>
   </div>
+
+</div>
 
   <!-- Main page content -->
   <div id="main"
