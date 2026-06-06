@@ -22,13 +22,12 @@ title: About & CV
     </p>
 
     <p>
-      My interests include marine ecology, coastal and coral reef ecosystems,
-      environmental health, and the application of scientific research to
+      I have field experience in multiple settings including intertidal, reef, and forest habitats. Additionally, my lab expereince includes molecular, microscopy, and morphometric techniques. My current interests include marine and terrestrial ecology, invasive species management, environmental health, and the application of scientific research to
       conservation and resource management.
     </p>
 
     <h3>Contact</h3>
-
+    
     <p>
       <a href="mailto:tewahade.leila@gmail.com">
         tewahade.leila@gmail.com
